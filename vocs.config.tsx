@@ -22,27 +22,22 @@ export default defineConfig({
 		light: '/logo-light.svg',
 		dark: '/logo-dark.svg',
 	},
-	// theme: {
-	// 	// accentColor: '#5E43FF',
-	// },
+	theme: {
+		accentColor: '#539CDB',
+	},
 	rootDir:	'docs',
 	ogImageUrl: {
     '/': '/og.png',
     '/docs': 'https://docs.lanca.io/og?logo=%logo&title=%title&description=%description',
   },
-
-	// font: {
-	//   google: 'Manrope'
-	// },
+	font: {
+	  google: 'Manrope'
+	},
 	topNav: [
 		{
 			text: 'Get in touch',
 			link: 'mailto:support@lanca.io',
 		},
-		// {
-		// 	text: 'Whitepaper',
-		// 	link: 'https://www.concero.io/whitepaper.pdf',
-		// },
 	],
 	socials: [
 		{
